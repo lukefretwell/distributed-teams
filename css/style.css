@@ -1,0 +1,94 @@
+html, body {
+  color: #212121;
+  height: 100%;
+}
+body, h1, h2, h3, h4, h5, h6, p, li, label, div, .jumbotron p.lead {
+  font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #AF352E;
+  font-weight: 400;
+}
+h1 {
+  font-size: 50px;
+}
+p, li {
+  font-size: 18px;
+}
+p.lead {
+  font-size: 40px;
+}
+a, a:visited, a:hover {
+  color: #AF352E;
+}
+
+/* hr */
+
+.quotes hr {
+  border-top: 1px solid #f1f1f1;
+  margin: 30px 0;
+}
+hr {
+  border-top: 1px solid #aeb0b5;
+  margin: 30px 0;
+}
+
+/* promo */
+
+.promo {
+  background: #fff;
+  border-top: 1px solid #aeb0b5;
+  padding: 10px 0;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  background: #f1f1f1;
+  border-bottom: 1px solid #aeb0b5;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+
+/* images */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+img.cover {
+  border: 1px solid #aeb0b5;
+}
+img.amazon {
+  max-width: 200px;
+}
+
+/* buttons */
+
+a.btn-primary, .btn  {
+  background: #AF352E;
+  color: #fff;
+  border-color: #AF352E;
+}
+a.btn-primary:hover, .btn:hover  {
+  background: #AF352E;
+  color: #fff;
+  border-color: #AF352E;
+  text-decoration: underline;
+}
+
+/* quotes */
+
+p.quote {
+  font-size: 145%;
+}
+
+/* footer */
+
+footer {
+  background: #f1f1f1;
+  border-top: 1px solid #aeb0b5;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
