@@ -1,0 +1,59 @@
+<footer>
+    <div class="book-buy">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-3">
+                    {% if site.img %}
+                    <a href="{{ site.baseurl }}/book"><img src="{{ site.baseurl }}/img/{{ site.img }}" alt="{{ site.name }}" title="{{ site.name }}"></a>
+                    {% endif %}
+                </div>
+                <div class="col-md-5">
+                    <h2>Order</h2>
+                    <p>Single and bulk purchase available</p>
+                    <p class="buy"><a href="{{ site.baseurl }}/book" class="btn-primary">Order {{ site.name }}</a></p>
+                </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-group list-group-horizontal-md">
+                        {% for item in site.data.nav.docs %}
+                        <li class="list-group-item"><a href="{{ item.url }}">{{ item.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        {% if site.linkedin %}
+                        <a href="{{ site.linkedin }}"><i class="fab fa-linkedin fa-2x"></i></a>
+                        {% endif %}
+                        {% if site.twitter_username %}
+                        <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter fa-2x"></i></a>
+                        {% endif %}
+                        {% if site.github_username %}
+                        <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github fa-2x"></i></a>
+                        {% endif %}
+                        {% if site.rss %}
+                        <a href="{{ site.url }}/{{ site.rss }}"><i class="fas fa-rss fa-2x"></i></a>
+                        {% endif %}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+</body>
+
+</html>

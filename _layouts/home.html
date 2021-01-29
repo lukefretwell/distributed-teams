@@ -1,0 +1,80 @@
+---
+layout: home
+---
+{% include header.html %}
+{% include nav.html %}
+<main id="main-content">
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 book-text">
+                    <h1 class="display-4">{{ page.title }}</h1>
+                    <p class="lead">{{ page.description }}</p>
+                    {% if page.author %}
+                    <p>By {{ page.author }}</p>
+                    {% endif %}
+                    {% if page.plug %}
+                    <p><em>{{ page.plug }}</em></p>
+                    {% endif %}
+                    {% if page.img-amazon %}
+                    <a href="{{ page.link-amazon }}"><img src="{{ site.baseurl }}/img/{{ page.img-amazon }}" alt="{{ page.text-amazon }}" title="{{ page.tittext-amazonle }}"></a>
+                    {% endif %}
+                </div>
+                <div class="col-md-6 book-cover">
+                    {% if page.img %}
+                    <img src="{{ site.baseurl }}/img/{{ page.img }}" alt="{{ page.title }}" title="{{ page.title }}">
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% if page.author %}
+    <div class="container section">
+        <div class="row">
+            <div class="col-md-3">
+                {% if page.author-img %}
+                <a href="{{ site.baseurl }}/{{ page.author-link }}"><img src="{{ site.baseurl }}/img/{{ page.author-img }}" alt="{{ page.author }}" title="{{ page.author }}"></a>
+                {% endif %}
+            </div>
+            <div class="col-md-9">
+                <h2>About the author</h2>
+                {% if page.author-bio %}
+                <p>{{ page.author-bio }}</p>
+                {% endif %}
+                {% if page.author-link %}
+                <p><a href="{{ site.baseurl }}/{{ page.author-link }}">About {{ page.author }}</a></p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.data.quotes.docs %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>What they say</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                {% for item in site.data.quotes.docs %}
+                <p class="lead">"{{ item.quote }}"</p>
+                <p><em>{{ item.name }}</em>
+                    {% endfor %}
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</main>
+{% include footer.html %}
