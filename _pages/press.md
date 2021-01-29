@@ -2,7 +2,7 @@
 layout: page
 title: Press
 description: 
-permalink: /press
+permalink: /press/
 
 ---
 

@@ -2,7 +2,7 @@
 layout: page
 title: Bio
 description: 
-permalink: /bio
+permalink: /bio/
 
 ---
 
