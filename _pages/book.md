@@ -2,7 +2,7 @@
 layout: page
 title: Book
 description: 
-permalink: /book/
+permalink: /book2/
 
 ---
 
