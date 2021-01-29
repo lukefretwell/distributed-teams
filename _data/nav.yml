@@ -2,19 +2,19 @@ docs_list_title: nav
 docs:
 
 - title: Book
-  url: /book
+  url: /book/
 
 - title: Bio
-  url: /bio
+  url: /bio/
 
 - title: Press
-  url: /press
+  url: /press/
 
 - title: Events
-  url: /events
+  url: /events/
 
 - title: Services
-  url: /services
+  url: /services/
 
 - title: Contact
-  url: /contact
+  url: /contact/
