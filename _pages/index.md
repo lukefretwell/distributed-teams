@@ -7,7 +7,7 @@ plug: Second edition now available in paperback and Kindle
 img: cover.jpg
 img-amazon: amazon.png
 text-amazon: Available at Amazon
-link-amazon: https://www.amazon.com/Distributed-Teams-Practice-Together-Physically/dp/1732254907/
+link-amazon: https://www.amazon.com/Distributed-Teams-Practice-Together-Physically/dp/1732254923/
 
 author: John O'Duinn
 author-img: author.webp
