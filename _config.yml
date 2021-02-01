@@ -24,6 +24,7 @@ description: The Art and Practice of Working Together While Physically Apart.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://distributedteamsbook.com" # the base hostname & protocol for your site, e.g. http://example.com
 img: cover.jpg
+titleimg: covertitle.jpg
 
 twitter_username: joduinn
 linkedin: https://www.linkedin.com/in/joduinn/
