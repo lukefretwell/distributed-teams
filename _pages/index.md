@@ -2,7 +2,7 @@
 layout: home
 title: Distributed Teams
 description: The Art and Practice of Working Together While Physically Apart
-plug: Second edition is now available in paperback as well as Kindle and nook formats.
+plug: Second edition is now available in paperback as well as for Kindle and nook e-readers.
 
 img: cover.jpg
 img-amazon: amazon.png
