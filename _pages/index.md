@@ -2,12 +2,15 @@
 layout: home
 title: Distributed Teams
 description: The Art and Practice of Working Together While Physically Apart
-plug: Second edition now available in paperback and Kindle
+plug: Second edition is now available in paperback as well as Kindle and nook formats.
 
 img: cover.jpg
 img-amazon: amazon.png
 text-amazon: Available at Amazon
 link-amazon: https://www.amazon.com/Distributed-Teams-Practice-Together-Physically/dp/1732254923/
+img-bn: nook.png
+text-bn: Available at Barnes and Noble
+link-bn: https://www.barnesandnoble.com/w/distributed-teams-john-oduinn/1130974497?ean=9781732254930
 
 author: John O'Duinn
 author-img: author.webp
