@@ -17,5 +17,6 @@ author-img: author.webp
 author-link: bio
 author-bio: John O’Duinn has written code and led engineering teams in companies ranging from four person startups, to non-profits, to multinationals – including in the US Government as part of the U.S. Digital Service in the Obama White House.
 
+contact-link: contact
 ---
 
