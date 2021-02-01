@@ -1,7 +1,7 @@
 docs_list_title: nav
 docs:
 
-- title: Book
+- title: Buy The Book
   url: /book/
 
 - title: Bio
@@ -10,11 +10,11 @@ docs:
 - title: Press
   url: /press/
 
-- title: Events
-  url: /events/
+#- title: Events
+#  url: /events/
 
-- title: Services
-  url: /services/
+#- title: Services
+#  url: /services/
 
 - title: Contact
   url: /contact/
