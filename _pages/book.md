@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Book
-description: 
+description: About Distributed Teams.
 permalink: /book/
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Services
-description: 
+description: Service offerings for distributed teams.
 permalink: /services/
 
 ---

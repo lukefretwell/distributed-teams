@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Buy
-description: 
+description: Where to order Distributed Teams.
 permalink: /buy/
 
 ---

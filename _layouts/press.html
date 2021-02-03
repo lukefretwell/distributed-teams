@@ -1,0 +1,10 @@
+---
+layout: page
+---
+<div class="alert alert-light" role="alert">
+    <p><a href="/contact">Contact John</a> for press inquiries.</p>
+</div>
+{% for item in site.data.press.docs %}
+<p><a href="{{ item.url }}">{{ item.title }}</a><br>
+    <em>{{ item.source }}</em></p>
+{% endfor %}

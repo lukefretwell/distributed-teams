@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: press
 title: Press
-description: 
+description: Distributed Teams author John O'Duinn in the press.
 permalink: /press/
 
 ---

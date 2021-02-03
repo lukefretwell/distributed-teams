@@ -69,12 +69,15 @@ blockquote li {
 /* Selection */
 
 ::selection {
-  background: #AF352E; /* WebKit/Blink Browsers */
-  color: #ffffff;
+    background: #AF352E;
+    /* WebKit/Blink Browsers */
+    color: #ffffff;
 }
+
 ::-moz-selection {
-  background: #AF352E; /* Gecko Browsers */
-  color: #ffffff;
+    background: #AF352E;
+    /* Gecko Browsers */
+    color: #ffffff;
 }
 
 /* Lead */
@@ -85,11 +88,26 @@ blockquote li {
     padding-top: 1.5rem;
 }
 
+.jumbotron {
+    padding-bottom: 2rem !important;
+    padding-top: 2rem !important;
+}
+
+.jumbotron-home {
+    padding-bottom: 4rem !important;
+    padding-top: 4rem !important;
+}
+
 .jumbotron .lead {
     font-size: 1.9rem;
     font-weight: 200;
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
+}
+
+.jumbotron .description {
+    font-family: 'Lora', serif;
+    font-style: italic;
 }
 
 /* Book specific */

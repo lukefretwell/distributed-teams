@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Author
-description: 
+description: Distributed Teams author John O'Duinn.
 permalink: /author/
 
 ---
