@@ -2,18 +2,9 @@
     <div class="book-buy">
         <div class="container">
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-12 text-center">
+                    <p class="buy"><a href="{{ site.baseurl }}/book" class="btn-primary">Buy {{ site.name }}</a></p>
                 </div>
-                <div class="col-md-3">
-                    {% if site.titleimg %}
-                    <a href="{{ site.baseurl }}/book"><img src="{{ site.baseurl }}/img/{{ site.titleimg }}" alt="{{ site.name }}" title="{{ site.name }}"></a>
-                    {% endif %}
-                </div>
-                <div class="col-md-5">
-                    <p class="buy"><a href="{{ site.baseurl }}" class="btn-primary">Click here to buy {{ site.name }}</a></p>
-                </div>
-            </div>
-            <div class="col-md-2">
             </div>
         </div>
     </div>
