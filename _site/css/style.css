@@ -66,6 +66,17 @@ blockquote li {
     padding: .5rem;
 }
 
+/* Selection */
+
+::selection {
+  background: #AF352E; /* WebKit/Blink Browsers */
+  color: #ffffff;
+}
+::-moz-selection {
+  background: #AF352E; /* Gecko Browsers */
+  color: #ffffff;
+}
+
 /* Lead */
 
 .lead {
