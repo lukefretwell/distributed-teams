@@ -16,13 +16,7 @@ layout: home
                     {% if page.plug %}
                     <p><em>{{ page.plug }}</em></p>
                     {% endif %}
-                    {% if page.img-amazon %}
-                    <a href="{{ page.link-amazon }}"><img src="{{ site.baseurl }}/img/{{ page.img-amazon }}" alt="{{ page.text-amazon }}" title="{{ page.tittext-amazonle }}"></a>
-                    {% endif %}
-                    {% if page.img-bn %}
-                    <a href="{{ page.link-bn }}"><img src="{{ site.baseurl }}/img/{{ page.img-bn }}" alt="{{ page.text-bn }}" title="{{ page.tittext-bnle }}"></a>
-                    {% endif %}
-                    <p><a href="{{ site.baseurl }}/{{ page.contact-link }}">Bulk purchases also available.</a></p>
+                    <p class="buy"><a href="{{ site.baseurl }}/buy" class="btn-primary">Buy {{ site.name }}</a></p>
                 </div>
                 <div class="col-md-6 book-cover">
                     {% if page.img %}
