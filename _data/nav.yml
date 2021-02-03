@@ -1,11 +1,14 @@
 docs_list_title: nav
 docs:
 
-- title: About The Book
+- title: About the book
   url: /book/
 
-- title: Bio
-  url: /bio/
+- title: Buy
+  url: /buy/
+
+- title: Author
+  url: /author/
 
 - title: Press
   url: /press/
