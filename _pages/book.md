@@ -4,6 +4,7 @@ title: Book
 description: About Distributed Teams.
 permalink: /book/
 
+img: cover.jpg
 ---
 
 Can you have a meaningful, well-paid career without a daily commute to a physical office, and without burning out? Can your team or organization work well together and maintain team culture, even when physically apart?
