@@ -17,11 +17,6 @@ img: cover.jpg
                   <p class="buy"><a href="https://www.kobo.com/us/en/ebook/distributed-teams" class="btn-primary">Buy on Kobo</a></p>
                   <p class="buy"><a href="{{ site.baseurl }}/contact" class="btn-primary">Buy bulk purchases</a></p>
                 </div>
-                <div class="col-md-6 book-cover">
-                    {% if page.img %}
-                    <img src="{{ site.baseurl }}/img/{{ page.img }}" alt="{{ page.title }}" title="{{ page.title }}">
-                    {% endif %}
-                </div>
             </div>
         </div>
     </div>
