@@ -25,15 +25,11 @@ Each short easy-to-read chapter has practical takeaways on what did--and did not
             </div>
         </div>
         <div class="row">
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-8">
+            <div class="col-md-12">
                 {% for item in site.data.quotes.docs %}
                 <p class="lead">"{{ item.quote }}"</p>
                 <p>{{ item.name }}</p>
                 {% endfor %}
-            </div>
-            <div class="col-md-2">
             </div>
         </div>
     </div>
