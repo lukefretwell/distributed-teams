@@ -4,13 +4,7 @@ title: Buy
 description: Where to order Distributed Teams.
 permalink: /buy/
 
-
----
----
-layout: home
----
 {% include header.html %}
-{% include nav.html %}
 <main id="main-content">
     <div class="jumbotron jumbotron-home">
         <div class="container">
