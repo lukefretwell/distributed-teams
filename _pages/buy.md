@@ -6,8 +6,7 @@ permalink: /buy/
 
 
 ---
-    <div class="jumbotron jumbotron-home">
-        <div class="container">
+
             <div class="row">
                 <div class="col-md-6 book-text">
                   <p class="buy"><a href="https://www.amazon.com/Distributed-Teams-Practice-Together-Physically/dp/1732254923/" class="btn-primary">Buy on Amazon</a></p>
@@ -21,8 +20,6 @@ permalink: /buy/
                     {% endif %}
                 </div>
             </div>
-        </div>
-    </div>
     
 
 
