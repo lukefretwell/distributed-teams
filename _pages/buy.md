@@ -3,6 +3,7 @@ layout: page
 title: Buy
 description: Where to order Distributed Teams.
 permalink: /buy/
+---
 
 {% include header.html %}
 <main id="main-content">
