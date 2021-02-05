@@ -13,7 +13,7 @@ img-text: Distributed Teams
     <div class="jumbotron">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 book-text">
+                <div class="col-md-8 book-text">
                   <p><a href="https://www.amazon.com/Distributed-Teams-Practice-Together-Physically/dp/1732254923/"><img src="{{ site.baseurl }}/img/amazon.png"></a></p>
                   <p><a href="https://www.barnesandnoble.com/w/distributed-teams-john-oduinn/1130974497?ean=9781732254930"><img src="{{ site.baseurl }}/img/barnesandnoble.png"></a></p>
                   <p><a href="https://www.kobo.com/us/en/ebook/distributed-teams"><img src="{{ site.baseurl }}/img/kobo.png"></a></p>
