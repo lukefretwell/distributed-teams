@@ -4,6 +4,9 @@ title: Author
 description: Distributed Teams author John O'Duinn.
 permalink: /author/
 
+img: author.jpg
+img-text: John O'Duinn
+
 ---
 
 John O’Duinn has written code and led engineering teams in companies ranging from four person startups, to non-profits, to multinationals – including in the US Government as part of the U.S. Digital Service in the Obama White House.

@@ -6,7 +6,10 @@ layout: default
         <div class="col-md-8">
             {{ content }}
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 book-cover"">
+             {% if page.img %}
+        	<img src=" {{ site.baseurl }}/img/{{ page.img }}" alt="{{ page.img-text }}" title="{{ page.img-text }}">
+            {% endif %}
         </div>
     </div>
 </div>
