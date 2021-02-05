@@ -1,7 +1,7 @@
 ---
 layout: quotes
 title: What they say
-description: Public Endorsements and Quotes.
+description: Public Endorsements.
 permalink: /what-they-say/
 
 ---
