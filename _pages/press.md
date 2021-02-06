@@ -7,10 +7,3 @@ permalink: /press/
 ---
 {% assign groups = site.press.docs | group_by: "category" | sort: "title" %}
 
-{% for group in groups %}
-    {{ group.name }}
-    {% for item in group.items %}
-        {{item.title}}
-        {{item.source}}
-    {%endfor%}
-{%endfor%}
