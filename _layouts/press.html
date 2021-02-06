@@ -10,22 +10,21 @@ layout: page
 {% assign groups_video = site.data.press.docs | where: "category","video" %}
 {% assign groups_mention = site.data.press.docs | where: "category","mention" %}
 
-<h2><b>Video</b></h2><p>
+<h2>Video</h2><p>
 {% for item in groups_video %}
-    <a href="{{ item.url }}">{{ item.title }}</a><br>
-       <em>{{ item.source }}</em><br>
+    <a href="{{ item.url }}">{{ item.title }}</a>, <em>{{ item.source }}</em><br>
 {% endfor %}
-</p><h2><b>Podcasts, Radio</b></h2><p>
+</p><h2>Podcasts, Radio</h2><p>
 {% for item in groups_audio %}
     <a href="{{ item.url }}">{{ item.title }}</a><br>
        <em>{{ item.source }}</em><br>
 {% endfor %}
-</p><h2><b>Articles</b></h2><p>
+</p><h2>Articles</h2><p>
 {% for item in groups_written %}
     <a href="{{ item.url }}">{{ item.title }}</a><br>
        <em>{{ item.source }}</em><br>
 {% endfor %}
-</p><h2><b>Featured in</b></h2><p>
+</p><h2>Featured in</h2><p>
 {% for item in groups_mention %}
     <a href="{{ item.url }}">{{ item.title }}</a><br>
        <em>{{ item.source }}</em><br>
