@@ -5,11 +5,12 @@ layout: page
     <p><a href="/contact">Contact John</a> for press inquiries.</p>
 </div>
 
-debug: before assign 21:18
-{% assign groups = site.data.press.docs | group_by: "category" | sort: "category" %}
+debug: before assign 21:26
+{% assign groups = site.data.press.docs | where: "category","written" %}
 debug: after assign
 {{groups}}
 debug: before forloop
+<h2><b>Articles</b></h2>
 {% for item in groups.items %}
     debug: inside forloop
     item: {{item}}
