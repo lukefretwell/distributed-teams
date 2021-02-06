@@ -11,8 +11,13 @@ debug: after assign
 {{groups}}
 debug: before forloop
 {% for item in groups %}
-debug: inside forloop
-<p><a href="{{ item.url }}">{{ item.title }}</a><br>
-    <em>{{ item.source }}</em></p>
+    debug: inside forloop
+    item: {{item}}
+    item.title: {{item.title}}
+    item.url: {{item.url}}
+    item.source: {{item.source}}
+    item.category: {{item.category}}
+    <p><a href="{{ item.url }}">{{ item.title }}</a><br>
+       <em>{{ item.source }}</em></p>
 {% endfor %}
 debug: after forloop
