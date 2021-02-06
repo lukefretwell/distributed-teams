@@ -8,7 +8,7 @@ layout: page
 {% assign groups_written = site.data.press.docs | where: "category","written" %}
 {% assign groups_audio = site.data.press.docs | where: "category","audio" %}
 {% assign groups_video = site.data.press.docs | where: "category","video" %}
-{% assign groups_listed = site.data.press.docs | where: "category","listed" %}
+{% assign groups_mention = site.data.press.docs | where: "category","mention" %}
 
 {{groups}}
 <h2><b>Video</b></h2>
@@ -27,7 +27,7 @@ layout: page
        <em>{{ item.source }}</em></p>
 {% endfor %}
 <h2><b>Featured in</b></h2>
-{% for item in groups_listed %}
+{% for item in groups_mention %}
     <p><a href="{{ item.url }}">{{ item.title }}</a><br>
        <em>{{ item.source }}</em></p>
 {% endfor %}
