@@ -4,6 +4,7 @@ layout: page
 <div class="alert alert-light" role="alert">
     <p><a href="/contact">Contact John</a> for press inquiries.</p>
 </div>
+debug: before assign
 {% assign groups = site.data.press.docs | group_by: "category" %}
 debug: before forloop
 {% for item in groups %}
