@@ -10,7 +10,6 @@ layout: page
 {% assign groups_video = site.data.press.docs | where: "category","video" %}
 {% assign groups_mention = site.data.press.docs | where: "category","mention" %}
 
-{{groups}}
 <h2><b>Video</b></h2><p>
 {% for item in groups_video %}
     <a href="{{ item.url }}">{{ item.title }}</a><br>
