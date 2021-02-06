@@ -6,12 +6,49 @@ layout: page
 </div>
 
 debug: before assign 21:28
-{% assign groups = site.data.press.docs | where: "category","written" %}
+{% assign groups_written = site.data.press.docs | where: "category","written" %}
+{% assign groups_audio = site.data.press.docs | where: "category","audio" %}
+{% assign groups_video = site.data.press.docs | where: "category","video" %}
+{% assign groups_listed = site.data.press.docs | where: "category","listed" %}
+
 debug: after assign
 {{groups}}
 debug: before forloop
+<h2><b>Video</b></h2>
+{% for item in groups_video %}
+    debug: inside forloop
+    item: {{item}}
+    item.title: {{item.title}}
+    item.url: {{item.url}}
+    item.source: {{item.source}}
+    item.category: {{item.category}}
+    <p><a href="{{ item.url }}">{{ item.title }}</a><br>
+       <em>{{ item.source }}</em></p>
+{% endfor %}
+<h2><b>Podcasts, Radio</b></h2>
+{% for item in groups_audio %}
+    debug: inside forloop
+    item: {{item}}
+    item.title: {{item.title}}
+    item.url: {{item.url}}
+    item.source: {{item.source}}
+    item.category: {{item.category}}
+    <p><a href="{{ item.url }}">{{ item.title }}</a><br>
+       <em>{{ item.source }}</em></p>
+{% endfor %}
 <h2><b>Articles</b></h2>
-{% for item in groups %}
+{% for item in groups_written %}
+    debug: inside forloop
+    item: {{item}}
+    item.title: {{item.title}}
+    item.url: {{item.url}}
+    item.source: {{item.source}}
+    item.category: {{item.category}}
+    <p><a href="{{ item.url }}">{{ item.title }}</a><br>
+       <em>{{ item.source }}</em></p>
+{% endfor %}
+<h2><b>Featured in</b></h2>
+{% for item in groups_listed %}
     debug: inside forloop
     item: {{item}}
     item.title: {{item.title}}
