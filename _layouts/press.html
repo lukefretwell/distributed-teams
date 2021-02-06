@@ -8,7 +8,7 @@ debug: before assign
 {% assign groups = site.data.press.docs | group_by: "category" %}
 debug: before forloop
 {{groups}}
-{% for item in groups %}
+{% for item in groups.items %}
 <p><a href="{{ item.url }}">{{ item.title }}</a><br>
     <em>{{ item.source }}</em></p>
 {% endfor %}
