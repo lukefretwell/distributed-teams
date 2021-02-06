@@ -12,22 +12,22 @@ layout: page
 
 {{groups}}
 <h2><b>Video</b></h2>
-{% for item in groups_video %}
-    <p><a href="{{ item.url }}">{{ item.title }}</a><br>
-       <em>{{ item.source }}</em></p>
+{% for item in groups_video limit: 3 %}
+    <a href="{{ item.url }}">{{ item.title }}</a><br>
+       <em>{{ item.source }}</em></br>
 {% endfor %}
-<h2><b>Podcasts, Radio</b></h2>
-{% for item in groups_audio %}
+<br><h2><b>Podcasts, Radio</b></h2>
+{% for item in groups_audio limit: 3 %}
     <p><a href="{{ item.url }}">{{ item.title }}</a><br>
        <em>{{ item.source }}</em></p>
 {% endfor %}
 <h2><b>Articles</b></h2>
-{% for item in groups_written %}
+{% for item in groups_written limit: 3 %}
     <p><a href="{{ item.url }}">{{ item.title }}</a><br>
        <em>{{ item.source }}</em></p>
 {% endfor %}
 <h2><b>Featured in</b></h2>
-{% for item in groups_mention %}
+{% for item in groups_mention limit: 3 %}
     <p><a href="{{ item.url }}">{{ item.title }}</a><br>
        <em>{{ item.source }}</em></p>
 {% endfor %}
