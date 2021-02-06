@@ -11,23 +11,23 @@ layout: page
 {% assign groups_mention = site.data.press.docs | where: "category","mention" %}
 
 {{groups}}
-<h2><b>Video</b></h2>
-{% for item in groups_video limit: 3 %}
+<h2><b>Video</b></h2><p>
+{% for item in groups_video %}
     <a href="{{ item.url }}">{{ item.title }}</a><br>
-       <em>{{ item.source }}</em></br>
+       <em>{{ item.source }}</em><br>
 {% endfor %}
-<br><h2><b>Podcasts, Radio</b></h2>
-{% for item in groups_audio limit: 3 %}
-    <p><a href="{{ item.url }}">{{ item.title }}</a><br>
-       <em>{{ item.source }}</em></p>
+</p><h2><b>Podcasts, Radio</b></h2>
+{% for item in groups_audio %}
+    <a href="{{ item.url }}">{{ item.title }}</a><br>
+       <em>{{ item.source }}</em><br>
 {% endfor %}
 <h2><b>Articles</b></h2>
-{% for item in groups_written limit: 3 %}
+{% for item in groups_written %}
     <p><a href="{{ item.url }}">{{ item.title }}</a><br>
        <em>{{ item.source }}</em></p>
 {% endfor %}
 <h2><b>Featured in</b></h2>
-{% for item in groups_mention limit: 3 %}
+{% for item in groups_mention %}
     <p><a href="{{ item.url }}">{{ item.title }}</a><br>
        <em>{{ item.source }}</em></p>
 {% endfor %}
