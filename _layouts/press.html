@@ -12,21 +12,22 @@ layout: page
 
 <h2>Video</h2><p>
 {% for item in groups_video %}
-    <a href="{{ item.url }}">{{ item.title }}</a>, <em>{{ item.source }}</em><br>
+    <a href="{{ item.url }}">{{ item.title }}</a><br>
+    <em>{{ item.source }}</em><br>
 {% endfor %}
 </p><h2>Podcasts, Radio</h2><p>
 {% for item in groups_audio %}
     <a href="{{ item.url }}">{{ item.title }}</a><br>
-       <em>{{ item.source }}</em><br>
+    <em>{{ item.source }}</em><br>
 {% endfor %}
 </p><h2>Articles</h2><p>
 {% for item in groups_written %}
     <a href="{{ item.url }}">{{ item.title }}</a><br>
-       <em>{{ item.source }}</em><br>
+    <em>{{ item.source }}</em><br>
 {% endfor %}
 </p><h2>Featured in</h2><p>
 {% for item in groups_mention %}
     <a href="{{ item.url }}">{{ item.title }}</a><br>
-       <em>{{ item.source }}</em><br>
+    <em>{{ item.source }}</em><br>
 {% endfor %}
 </p>
