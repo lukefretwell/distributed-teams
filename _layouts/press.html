@@ -4,7 +4,7 @@ layout: page
 <div class="alert alert-light" role="alert">
     <p><a href="/contact">Contact John</a> for press inquiries.</p>
 </div>
-{% assign groups = site.data.press.docs | group_by: "category" | sort: "title" %}
+{% assign groups = site.data.press.docs | sort: "title" %}
 {% for item in groups %}
 <p><a href="{{ item.url }}">{{ item.title }}</a><br>
     <em>{{ item.source }}</em></p>
